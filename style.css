@@ -19,7 +19,7 @@
 
 .box {
   background-color: white;
-  width: 30%;
+  width: 40%;
   box-shadow: 0px 0px 10px 1px hsl(0, 0%, 75%);
   padding: 15px;
   margin: auto;
@@ -33,7 +33,7 @@ footer {
 }
 
 .form-control {
-  width: 90%;
+  width: 97%;
   outline-color: green;
 }
 
@@ -50,7 +50,7 @@ footer {
 }
 
 .col {
-grid-column: 12px;
+  grid-column: 12px;
 }
 
 .nine {
@@ -58,33 +58,99 @@ grid-column: 12px;
 }
 
 img {
-  margin-bottom: 8px;
+  width: 100%;
+  margin-bottom: 42px;
 }
 
 .btn {
   text-decoration: none;
-  block-size: 100%;
+  padding: 15px 207px;
+  color: white;
   background-color: blue;
-  border-radius: 10px;
-  margin-bottom: 16px;
+  border-radius: 20px;
 }
 
 .badge-primary {
   background-color: blue;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
 }
 
 .badge-secondary {
   background-color: gray;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
 }
 
 .badge-success {
   background-color: green;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
 }
 
 .badge-info {
   background-color: rgba(0, 255, 242, 0.597);
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: white;
 }
 
 h3 {
   margin-bottom: 12px;
+}
+
+.flex {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list1 {
+  border-style: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  padding: 10px 0px 10px 20px;
+}
+
+.list2 {
+  border-style: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  padding: 10px 0px 10px 20px;
+}
+
+.list3 {
+  border-style: solid;
+  border-bottom-style: none;
+  border-width: 1px;
+  padding: 10px 0px 10px 20px;
+}
+
+.list4 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 0px 10px 20px;
+}
+
+.alert {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
 }
